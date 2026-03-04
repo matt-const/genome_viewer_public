@@ -1,2 +1,6 @@
 # genome_viewer_public
-Web-based Genome Visualizer. Written in C (WASM) + JS. Uses the ALICE engine that I have developed (github.com/matt-const/alice).
+Web-based Genome Visualizer. Written in C (WASM) + JS.
+Uses the [ALICE engine](github.com/matt-const/alice).
+
+## Integration
+The whole application is an *HTML5 canvas*, controlled by alice_canvas.js. (See index.html)
